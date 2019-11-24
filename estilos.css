@@ -1,0 +1,91 @@
+/*
+Geral
+*/
+
+body {
+font-family : "Open Sans", Helvetica, arial , sans-senrif,  ;
+color: #4d4d4d;
+    
+}
+
+h1, h2 , h3 {
+    margin: 0;
+    font-family: "Roboto Slab", Helvetica, arial , sans-senrif ;
+    
+}
+
+/*
+nav
+*/
+
+nav {
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    background-color: #4d4d4d;
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color:chocolate;
+    font-weight : 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+    
+    
+    
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+nav ul li {
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+  
+}
+/*
+cabeçalho
+*/
+header {
+    background-image: url(gradient-blue-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 20 px ;
+    
+    
+}
+
+header p
+{
+    margin-bottom: 2em;
+    
+    
+}
+
+ 
+
+
